@@ -9,7 +9,7 @@ function App() {
    {/* <!--  header --> */}
     <header>
       <span>
-        <img className="nmhar" src="image folder/nmehar.png" alt="" />
+        <img className="nmhar" src="./public/images/nmehar.png" alt="" />
       </span>
 
       <nav>
@@ -22,7 +22,7 @@ function App() {
       </nav>
 
     <button id="hbtn"><a href="loginform.html">Login</a></button>
-    <span className="i"><i className="fa-solid fa-bars" style={{color: "white"}}></i></span>
+    {/* <span className="i"><i className="fa-solid fa-bars" style="color: white;"></i></span> */}
       
     </header>
 
@@ -36,7 +36,7 @@ function App() {
     <p className="notheadpra">Upgrade your skills with top-rated online courses and expert instructors.</p>
     <button className="getsbutton" onclick="location.href='course.html'">Explore Courses</button>
   </div>
-  <img className="banner" src="image folder/banner.png" alt="Learning banner" />
+  <img className="banner" src="./public/images/banner.png" alt="Learning banner" />
 </section>
         </div>
     {/* main */}
