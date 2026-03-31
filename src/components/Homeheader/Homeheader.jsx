@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Header.css'
+import { Link } from 'react-router'
 
 function Homeheader() {
   return (
@@ -12,14 +13,14 @@ function Homeheader() {
 
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="course.html">Course</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="nmharcontact.html" >Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/course">Course</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
 
-    <button id="hbtn"><a href="loginform.html">Login</a></button>
+    <button id="hbtn"><Link to="loginform.html">Login</Link></button>
     {/* <span className="i"><i className="fa-solid fa-bars" style="color: white;"></i></span> */}
       
     </header>

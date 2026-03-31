@@ -13,7 +13,7 @@ function Homepages() {
   <div className="getStart">
     <p className="headpra">Find the best courses for you.</p>
     <p className="notheadpra">Upgrade your skills with top-rated online courses and expert instructors.</p>
-    <button className="getsbutton" onclick="location.href='course.html'">Explore Courses</button>
+    <button className="getsbutton" onClick={() => { window.location.href = 'course.html'; }}>Explore Courses</button>
   </div>
   <img className="banner" src="./public/images/banner.png" alt="Learning banner" />
 </section>
@@ -49,7 +49,7 @@ function Homepages() {
               <div className="card">
                 <span><i className="fa-solid fa-person-chalkboard"></i>Instructor Led</span>
                 <p>We provide one of the best instructor led online trainings in London.</p>
-                <button><a href="course.html">Find out more</a></button>
+                <button onClick={() => { window.location.href = 'course.html'; }}>Find out more</button>
               </div>
               <div className="card">
                 <span><i className="fa-solid fa-people-group"></i>Group Projects</span>
