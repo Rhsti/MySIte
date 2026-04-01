@@ -20,7 +20,7 @@ function Homeheader() {
         </ul>
       </nav>
 
-    <button id="hbtn"><Link to="loginform.html">Login</Link></button>
+    <button id="hbtn"><Link to="/login">Login</Link></button>
     {/* <span className="i"><i className="fa-solid fa-bars" style="color: white;"></i></span> */}
       
     </header>
